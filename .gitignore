@@ -1,4 +1,8 @@
-/node_modules
+# Ignorar la carpeta node_modules generada por npm
+node_modules/
+
+# Ignorar el archivo .env utilizado para configuraciones locales
 .env
+
+# Ignorar el archivo ngrok.exe (suponiendo que esté en la raíz del repositorio)
 ngrok.exe
-/ngrok
